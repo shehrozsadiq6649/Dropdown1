@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Dropdown Menu</title>
+  <link rel="stylesheet" href="s.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+</head>
+
+<body>
+
+  <div class="main-menu">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+  
+      <div class="content">
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="faom.html">Contact</a></li>
+          <li>
+            <a href="#" class="desktop-link">About</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Dropdown</label>
+            <ul>
+              <li><a href="aboutme.html">About Me</a></li>
+              <li><a href="aboutfamily.html">About Family</a></li>
+            
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Qualification</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Multi level</label>
+            <ul>
+              <li><a href="aboutschool.html">School </a></li>
+              <li>
+                <a href="#" class="desktop-link">College </a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">Level University</label>
+                <ul>
+                
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+<div class="course-info">
+  <p>This webpage was created for the Responsive Web Design course.</p>
+</div>
+    </nav>
+  </div>
+
+
+  </div>
+
+</body>
+
+</html>
